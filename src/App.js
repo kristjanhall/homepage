@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Gravatar from "react-gravatar";
 import "./App.css";
 
 class App extends Component {
@@ -6,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <Gravatar email="kristjanhall@gmail.com" size={200} rating="pg" />
           <p>kristjanhall.is</p>
         </header>
       </div>

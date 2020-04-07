@@ -1,3 +1,7 @@
+.react-gravatar {
+  border-radius: 100%;
+}
+
 .App {
   text-align: center;
 }
